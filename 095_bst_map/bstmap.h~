@@ -1,0 +1,63 @@
+#include <stdexcept>
+
+#include "map.h"
+#ifndef __BSTMAP_H__
+#define __BSTMAP_H__
+template<typename K, typename V>
+class BstMap : public Map<K, V>
+{
+ private:
+  class Node
+  {
+   public:
+    K key;
+    V value;
+    Node * left;
+    Node * right;
+    Node() {}
+    Node(K k_key, V v_value) : key(k_key), value(v_value), left(NULL), right(NULL) {}
+    ~Node() {}
+  };
+  Node * root;
+
+ public:
+  BstMap() : root(NULL) {}
+  virtual ~BstMap() {}
+  virtual void add(const K & key, const V & value) {
+    Node ** curr = &root;
+    while (*curr != NULL) {
+      if (key < (*curr)->key) {
+        curr = &(*curr)->left;
+      }
+      else if (key > (*curr)->key) {
+        curr = &(*curr)->right;
+      }
+      else {
+        (*curr)->value = value;
+        return;  // so the func ends
+      }
+    }
+    *curr = new Node(key, value);
+  }
+  virtual const V & lookup(const K & key) const throw(std::invalid_argument) {
+    Node * curr = root;
+    while (curr != NULL) {
+      if (key == curr->key) {
+        return curr->value;
+      }
+      else if (key < curr->key) {
+        curr = curr->left;
+      }
+      else {
+        curr = curr->right;
+      }
+    }
+    throw std::invalid_argument("No corresponding key\n");
+  }
+  virtual void remove(const K & key) {
+    int y = key;
+    y++;
+  }
+  friend void testBST(void);
+};
+#endif

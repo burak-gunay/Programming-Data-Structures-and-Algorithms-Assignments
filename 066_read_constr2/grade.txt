@@ -1,0 +1,8 @@
+Grading at 10/15/2018:02:38:32.264839
+For commit ID 6aa40dcc783870b3a06f66d9e0c2e04e58bb4478
+Attempting to compile:
+g++ -o code -pedantic -std=gnu++98 -Wall -Werror code.cpp
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: PASSED

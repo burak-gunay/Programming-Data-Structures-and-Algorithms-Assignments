@@ -1,0 +1,21 @@
+!!!!! !!!!!
+1;95;0c1;95;0c1;95;0c1;95;0c1;95;0c1;95;0c1;95;0c
+ABCD AAAAB
+$$XA$ $YB$$
+. . .
+'ABCDE' 'ABCDE'
+. . . .
+SSSSS 'SSSSS'
+0xFFF 0XFFF
+"HELP "HELL
+""AF" cheer
+print print
+++-++ +a+++
+aaaaa bbbbb
+1aaaa bbbbb
+11aaa bbbbb
+112aa bb2cc
+123        
+bbbbb bbbbb
+AABBB aacd
+abcc AABBB

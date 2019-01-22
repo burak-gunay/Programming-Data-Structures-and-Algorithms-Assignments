@@ -1,0 +1,401 @@
+Grading at 09/10/2018:20:05:37.066708
+For commit ID d786fab9862d6d9503258f847338704d778418b3
+Checking for 'void retirement(int startAge, double initial, retire_info_t working, retire_info_t retired)'
+[32mfound 'void retirement(int startAge, double initial, retire_info_t working, retire_info_t retired)' in your source code 'retirement.c'[0m
+[32mfound strucutre retire_info_tag in retirement.c[0m
+[32mfound correct arguments in strucutre retire_info_tag in retirement.c[0m
+[32mSuccessfully compiled ['retirement.c'].[0m
+********************test case 1********************
+Running original code
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 1[0m
+Replacing your main with ours to do more testing
+[32mSuccessfully compiled ['retirement.c'].[0m
+********************test case 2********************
+age: 240, initial:     0.00, working: {514, 1234, 0.0056}, retired: {214, -6534, 0.00082}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 2[0m
+********************test case 3********************
+age: 240, initial:     0.00, working: {514, 1234, 0.0056}, retired: {214, -6534, 0.00485}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 3[0m
+********************test case 4********************
+age: 240, initial:     0.00, working: {514, 1234, 0.0056}, retired: {389, -6534, 0.00056}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 4[0m
+********************test case 5********************
+age: 240, initial:     0.00, working: {514, 1234, 0.0056}, retired: {389, -6534, 0.00488}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 5[0m
+********************test case 6********************
+age: 240, initial:     0.00, working: {514, 3342, 0.0056}, retired: {220, -6534, 0.00065}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 6[0m
+********************test case 7********************
+age: 240, initial:     0.00, working: {514, 3342, 0.0056}, retired: {220, -6534, 0.00470}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 7[0m
+********************test case 8********************
+age: 240, initial:     0.00, working: {514, 3342, 0.0056}, retired: {410, -6534, 0.00059}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 8[0m
+********************test case 9********************
+age: 240, initial:     0.00, working: {514, 3342, 0.0056}, retired: {410, -6534, 0.00464}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 9[0m
+********************test case 10********************
+age: 240, initial:     0.00, working: {397, 1234, 0.0056}, retired: {221, -6534, 0.00093}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 10[0m
+********************test case 11********************
+age: 240, initial:     0.00, working: {397, 1234, 0.0056}, retired: {221, -6534, 0.00418}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 11[0m
+********************test case 12********************
+age: 240, initial:     0.00, working: {397, 1234, 0.0056}, retired: {399, -6534, 0.00076}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 12[0m
+********************test case 13********************
+age: 240, initial:     0.00, working: {397, 1234, 0.0056}, retired: {399, -6534, 0.00482}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 13[0m
+********************test case 14********************
+age: 240, initial:     0.00, working: {397, 2445, 0.0056}, retired: {207, -6534, 0.00081}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 14[0m
+********************test case 15********************
+age: 240, initial:     0.00, working: {397, 2445, 0.0056}, retired: {207, -6534, 0.00455}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 15[0m
+********************test case 16********************
+age: 240, initial:     0.00, working: {397, 2445, 0.0056}, retired: {405, -6534, 0.00077}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 16[0m
+********************test case 17********************
+age: 240, initial:     0.00, working: {397, 2445, 0.0056}, retired: {405, -6534, 0.00452}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 17[0m
+********************test case 18********************
+age: 240, initial:  9268.83, working: {514, 1234, 0.0056}, retired: {215, -6534, 0.00096}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 18[0m
+********************test case 19********************
+age: 240, initial:  9268.83, working: {514, 1234, 0.0056}, retired: {215, -6534, 0.00400}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 19[0m
+********************test case 20********************
+age: 240, initial:  9268.83, working: {514, 1234, 0.0056}, retired: {406, -6534, 0.00058}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 20[0m
+********************test case 21********************
+age: 240, initial:  9268.83, working: {514, 1234, 0.0056}, retired: {406, -6534, 0.00446}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 21[0m
+********************test case 22********************
+age: 240, initial:  9268.83, working: {514, 3075, 0.0056}, retired: {227, -6534, 0.00090}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 22[0m
+********************test case 23********************
+age: 240, initial:  9268.83, working: {514, 3075, 0.0056}, retired: {227, -6534, 0.00478}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 23[0m
+********************test case 24********************
+age: 240, initial:  9268.83, working: {514, 3075, 0.0056}, retired: {395, -6534, 0.00074}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 24[0m
+********************test case 25********************
+age: 240, initial:  9268.83, working: {514, 3075, 0.0056}, retired: {395, -6534, 0.00408}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 25[0m
+********************test case 26********************
+age: 240, initial:  9268.83, working: {399, 1234, 0.0056}, retired: {220, -6534, 0.00072}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 26[0m
+********************test case 27********************
+age: 240, initial:  9268.83, working: {399, 1234, 0.0056}, retired: {220, -6534, 0.00424}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 27[0m
+********************test case 28********************
+age: 240, initial:  9268.83, working: {399, 1234, 0.0056}, retired: {376, -6534, 0.00079}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 28[0m
+********************test case 29********************
+age: 240, initial:  9268.83, working: {399, 1234, 0.0056}, retired: {376, -6534, 0.00425}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 29[0m
+********************test case 30********************
+age: 240, initial:  9268.83, working: {399, 3658, 0.0056}, retired: {210, -6534, 0.00094}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 30[0m
+********************test case 31********************
+age: 240, initial:  9268.83, working: {399, 3658, 0.0056}, retired: {210, -6534, 0.00450}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 31[0m
+********************test case 32********************
+age: 240, initial:  9268.83, working: {399, 3658, 0.0056}, retired: {377, -6534, 0.00077}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 32[0m
+********************test case 33********************
+age: 240, initial:  9268.83, working: {399, 3658, 0.0056}, retired: {377, -6534, 0.00434}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 33[0m
+********************test case 34********************
+age: 345, initial:     0.00, working: {514, 1234, 0.0056}, retired: {222, -6534, 0.00088}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 34[0m
+********************test case 35********************
+age: 345, initial:     0.00, working: {514, 1234, 0.0056}, retired: {222, -6534, 0.00435}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 35[0m
+********************test case 36********************
+age: 345, initial:     0.00, working: {514, 1234, 0.0056}, retired: {408, -6534, 0.00087}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 36[0m
+********************test case 37********************
+age: 345, initial:     0.00, working: {514, 1234, 0.0056}, retired: {408, -6534, 0.00465}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 37[0m
+********************test case 38********************
+age: 345, initial:     0.00, working: {514, 3050, 0.0056}, retired: {233, -6534, 0.00090}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 38[0m
+********************test case 39********************
+age: 345, initial:     0.00, working: {514, 3050, 0.0056}, retired: {233, -6534, 0.00400}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 39[0m
+********************test case 40********************
+age: 345, initial:     0.00, working: {514, 3050, 0.0056}, retired: {394, -6534, 0.00069}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 40[0m
+********************test case 41********************
+age: 345, initial:     0.00, working: {514, 3050, 0.0056}, retired: {394, -6534, 0.00434}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 41[0m
+********************test case 42********************
+age: 345, initial:     0.00, working: {493, 1234, 0.0056}, retired: {231, -6534, 0.00079}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 42[0m
+********************test case 43********************
+age: 345, initial:     0.00, working: {493, 1234, 0.0056}, retired: {231, -6534, 0.00454}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 43[0m
+********************test case 44********************
+age: 345, initial:     0.00, working: {493, 1234, 0.0056}, retired: {402, -6534, 0.00065}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 44[0m
+********************test case 45********************
+age: 345, initial:     0.00, working: {493, 1234, 0.0056}, retired: {402, -6534, 0.00480}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 45[0m
+********************test case 46********************
+age: 345, initial:     0.00, working: {493, 3415, 0.0056}, retired: {204, -6534, 0.00088}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 46[0m
+********************test case 47********************
+age: 345, initial:     0.00, working: {493, 3415, 0.0056}, retired: {204, -6534, 0.00482}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 47[0m
+********************test case 48********************
+age: 345, initial:     0.00, working: {493, 3415, 0.0056}, retired: {407, -6534, 0.00076}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 48[0m
+********************test case 49********************
+age: 345, initial:     0.00, working: {493, 3415, 0.0056}, retired: {407, -6534, 0.00445}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 49[0m
+********************test case 50********************
+age: 345, initial:  7213.01, working: {514, 1234, 0.0056}, retired: {216, -6534, 0.00059}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 50[0m
+********************test case 51********************
+age: 345, initial:  7213.01, working: {514, 1234, 0.0056}, retired: {216, -6534, 0.00492}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 51[0m
+********************test case 52********************
+age: 345, initial:  7213.01, working: {514, 1234, 0.0056}, retired: {386, -6534, 0.00084}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 52[0m
+********************test case 53********************
+age: 345, initial:  7213.01, working: {514, 1234, 0.0056}, retired: {386, -6534, 0.00436}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 53[0m
+********************test case 54********************
+age: 345, initial:  7213.01, working: {514, 3556, 0.0056}, retired: {228, -6534, 0.00094}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 54[0m
+********************test case 55********************
+age: 345, initial:  7213.01, working: {514, 3556, 0.0056}, retired: {228, -6534, 0.00492}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 55[0m
+********************test case 56********************
+age: 345, initial:  7213.01, working: {514, 3556, 0.0056}, retired: {405, -6534, 0.00051}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 56[0m
+********************test case 57********************
+age: 345, initial:  7213.01, working: {514, 3556, 0.0056}, retired: {405, -6534, 0.00421}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 57[0m
+********************test case 58********************
+age: 345, initial:  7213.01, working: {486, 1234, 0.0056}, retired: {209, -6534, 0.00057}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 58[0m
+********************test case 59********************
+age: 345, initial:  7213.01, working: {486, 1234, 0.0056}, retired: {209, -6534, 0.00401}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 59[0m
+********************test case 60********************
+age: 345, initial:  7213.01, working: {486, 1234, 0.0056}, retired: {370, -6534, 0.00050}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 60[0m
+********************test case 61********************
+age: 345, initial:  7213.01, working: {486, 1234, 0.0056}, retired: {370, -6534, 0.00455}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 61[0m
+********************test case 62********************
+age: 345, initial:  7213.01, working: {486, 2650, 0.0056}, retired: {221, -6534, 0.00091}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 62[0m
+********************test case 63********************
+age: 345, initial:  7213.01, working: {486, 2650, 0.0056}, retired: {221, -6534, 0.00429}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 63[0m
+********************test case 64********************
+age: 345, initial:  7213.01, working: {486, 2650, 0.0056}, retired: {392, -6534, 0.00058}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 64[0m
+********************test case 65********************
+age: 345, initial:  7213.01, working: {486, 2650, 0.0056}, retired: {392, -6534, 0.00431}
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 65[0m
+[32msuccessfully passed all 65 test cases[0m
+Overall Grade: A

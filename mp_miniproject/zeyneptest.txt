@@ -1,0 +1,6 @@
+define ( qsolar Aa I) = (* (* I Aa) (- 0.773 ( + 4.7272 0.7933) ) )
+test (qsolar 1.07 12.1) -999999
+define ( findA1,a I ) =  ( / (* 1.43 40.00) I)
+define ( findA2,a I ) =  ( / (* 0.006 1600.00) I)
+test ( findA1,a 12.1) 4.7272
+test ( findA2,a 12.1) 0.7933

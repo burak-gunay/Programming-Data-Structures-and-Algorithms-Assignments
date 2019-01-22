@@ -1,0 +1,10 @@
+define (f a) =(+ a 3 ) #IGNORED AFTER here
+define (g a b c d e f g h SOI daojdas LALA) = (+ a b)
+#this whole line gotta be ignored
+define (f0 a) =(+ a 3 ) #IGNORED AFTER here
+define (f1 a) =(+ a 3 ) #IGNORED AFTER here
+define (f2 a) =(+ a 3 ) #IGNORED AFTER here
+define (f3 a) =(+ a 3 ) #IGNORED AFTER here
+define (f4 a) =(+ a 3 ) #IGNORED AFTER here
+define (f5 a) =(+ a 3 ) #IGNORED AFTER here
+define (f6 b) = (+ b

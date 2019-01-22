@@ -1,0 +1,13 @@
+input2.txt
+input1.txt
+input3.txt
+input4.txt
+
+input2 input3
+5 4 3 2 1
+NULL
+run_all.sh
+input6.txt
+input6.txt~
+input7.txt
+input111.txta

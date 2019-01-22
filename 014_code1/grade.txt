@@ -1,0 +1,81 @@
+Grading at 09/05/2018:17:10:52.770685
+For commit ID 1880ab2906bb40da28ffef4a6bd99031dd69a356
+[32mSuccessfully compiled ['code1.c'].[0m
+Checking for 'int max(int num1, int num2)'
+[32mfound 'int max(int num1, int num2)' in your source code 'code1.c'[0m
+Checking for 'int main(void)'
+[32mfound 'int main(void)' in your source code 'code1.c'[0m
+********************test case 1********************
+Running original code
+Exit status of your code: 0
+[32mValgrind was clean[0m
+[32mCorrect: your output matched the expected output.[0m
+[32mpassed test case 1[0m
+Removing your main() and replacing it with our own to run more tests...
+[32mSuccessfully compiled ['code1.c'].[0m
+checking max(-999, -2147483648)
+checking max(-999, 123)
+checking max(-999, 567)
+checking max(-999, 891)
+checking max(-999, 0)
+checking max(-999, 1)
+checking max(-999, -999)
+checking max(-999, 123123123)
+checking max(-87, -2147483648)
+checking max(-87, 123)
+checking max(-87, 567)
+checking max(-87, 891)
+checking max(-87, 0)
+checking max(-87, 1)
+checking max(-87, -999)
+checking max(-87, 123123123)
+checking max(0, -2147483648)
+checking max(0, 123)
+checking max(0, 567)
+checking max(0, 891)
+checking max(0, 0)
+checking max(0, 1)
+checking max(0, -999)
+checking max(0, 123123123)
+checking max(1, -2147483648)
+checking max(1, 123)
+checking max(1, 567)
+checking max(1, 891)
+checking max(1, 0)
+checking max(1, 1)
+checking max(1, -999)
+checking max(1, 123123123)
+checking max(240, -2147483648)
+checking max(240, 123)
+checking max(240, 567)
+checking max(240, 891)
+checking max(240, 0)
+checking max(240, 1)
+checking max(240, -999)
+checking max(240, 123123123)
+checking max(345, -2147483648)
+checking max(345, 123)
+checking max(345, 567)
+checking max(345, 891)
+checking max(345, 0)
+checking max(345, 1)
+checking max(345, -999)
+checking max(345, 123123123)
+checking max(999999, -2147483648)
+checking max(999999, 123)
+checking max(999999, 567)
+checking max(999999, 891)
+checking max(999999, 0)
+checking max(999999, 1)
+checking max(999999, -999)
+checking max(999999, 123123123)
+checking max(2147483647, -2147483648)
+checking max(2147483647, 123)
+checking max(2147483647, 567)
+checking max(2147483647, 891)
+checking max(2147483647, 0)
+checking max(2147483647, 1)
+checking max(2147483647, -999)
+checking max(2147483647, 123123123)
+[32msuccessfully passed all 65 test cases[0m
+Overall Grade: A

@@ -1,0 +1,33 @@
+define (f0 x y) =(+ x y)
+define (f1 x y) =(- x y)
+define (f2 x y) =(* x y)
+define (f3 x y) =(/ x y)
+define (f4 x y) =(% x y)
+define (f5 x ) =(sin x)
+define (f6 x ) =(cos x)
+define (f7 x) =(sqrt x)
+define (f8 x) =(ln x)
+define (f9 x y) =(pow x y)
+define (f10 x y z) = (+ (* x y) (- z 3) )
+test (f0 10 20) 30
+test (f1 10 20) 40
+test (f1 0 -8.5) 8.5
+test (f1 10 3) 5
+test (f2 2 3.5) 7.0
+test (f2 9.81 4.20) 45
+test (f3 10 2.5) 4
+test (f3 15 5) 4
+test (f4 10 2) 0
+test (f4 10 3) 0
+test (f5 1.57079633) 1
+test (f5 1.57079633) 0.5
+test (f6 0) 1
+test (f7 25) 5
+test (f7 36)  5
+test (f8 5.5) 2
+test (f9 10 2) 100
+test (f9 2 4) 20
+test (f10 3 4.2 5) 14.6
+test (f10 -1 9.2 6) -6.2
+#After comment
+define (f11 x y) = (+ (f0 x y) (f2 x y))

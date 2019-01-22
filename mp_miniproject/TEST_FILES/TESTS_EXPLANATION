@@ -1,0 +1,48 @@
+P.S: Many of the failure cases give detailed explanation why it fails. For sake of brevity, I will not write them here, but each will be related to the error causing it
+Test 1= test1.txt Empty file. Does nothing, just closes
+Test 2= Pass in other files(or anything) as argument rather than to stdin (./testProject)
+Test 3= Incorrect filename to the executable, bash error
+Test 4= test2.txt define does not start at the beginning of the line, rejects
+Test 5= test3.txt, written as DEFINE. Case sensitive commands, rejects
+Test 6= test4.txt, line does not have an '=' sign. Reject
+Test 7= test5.txt, Checks the declaration from expression based on the '='. So, if there are more than one. Rejects
+Test 8= test6.txt, define is not wrapped with proper brackets
+Test 9= test7.txt, only one argument passed to define
+Test 10= test8.txt, First line is valid as output will show. Rejects when the same func_name is trying to be defined again, even without the same parameters
+Test 11= test9.txt, passes the whitespace requirement defined as (f A B)
+Test 12= test10.txt, rejects parameter names if doesnt have any non-numeric character
+Test 13= test11.txt, comment-symbol too early
+Test 14 = test12.txt, rejects params with '(' or ')'- as the code is dependent on those to parse identifiers
+Test 15= test13.txt, defines both functions with 1 parameters and many parameters. The program does not cause an error if all parameters are not used, that is up to the user.
+Also, the comment is ignored as seen.
+Can create many function declarations, without a problem.
+If declaration stops mid-declaration, causes an error
+Test 16= test14.txt. First line, whitespace does not cause an error
+Expression not wrapped in ( and ), causes an error
+Test 17= test15.txt, all predefined functions written on the numerics.txt are parsed and generated
+At the end, it tries to call itself. Doesn't make sense, so abort
+Test 18 = test16.txt, calls in a userdefined func which does not exists. Abort
+Test 19 = test17.txt, do not pass in specified num of parameters for prespecified multi_param
+Test 20 = test18.txt, do not pass in specified num of parameters for prespecified single_param
+Test 21 = test19.txt, do not pass in specified num of parameters for userspecified
+Test 22= test20.txt, pass more than required num of params for pre multi_param
+Test 23= test21.txt, as it can be seen all expressions can be generated, and tests work as it should
+(Along with the infamous example in the numerics.txt)
+After comment, as the description says after the = sign, everythin must be an expression. in f10,
+(f0 x y) is not and expr, as it is (id id id ). So it rejects
+Can also run test22.txt to see
+#Step 2
+Test 24= test23.txt, shows that numint works both for single param, and multi param
+Last line of test23.txt, range of value is 0 so it creates an error
+You can also try with numint f 1 1 1.5, to see that it will reject, as width is greater than range
+Test 25= test24.txt, num of pairs are not matching with the input
+Test 26 = test25.txt Characters are put in, instead of just nums
+Test 27 = test26.txt, nondefined func is put in.
+For further Step 2, you can try just writing numint, or giving only width
+#Step 3
+You can try the previous tests of Step 2, with invalid inputs. It will reject those. One difference,
+if the trial number is not an uint greater than one, it will also reject that.
+Try with many parameters, like
+define (g a b c) = (* (/ a b) (+ b c) )
+mcint g 100 -0.5 3 4.3 7.8 3 4.5
+Trying this more than one times will give different values.Showing it is random behavior when calculating

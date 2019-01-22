@@ -1,0 +1,480 @@
+Grading at 11/10/2018:22:58:16.519855
+For commit ID 334d034760c99bc242a8c34c14ff7d3947474b78
+Attempting to compile mystat.c
+Your code seems to compile fine.
+
++-----------------------------------------------------------------------+
+| testcase  1 ./mystat /bin/bash                                        |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  2 ./mystat /usr/share/dict/words                            |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 6 [ also counts for 4 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 6 
+
++-----------------------------------------------------------------------+
+| testcase  3 ./mystat /var/data/afile                                  |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  4 ./mystat /var/data/bfile                                  |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  5 ./mystat /var/data/dir                                    |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  6 ./mystat /var/data/fifo                                   |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  7 ./mystat /var/data/file014                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  8 ./mystat /var/data/file016                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase  9 ./mystat /var/data/file034                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 10 ./mystat /var/data/file036                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 11 ./mystat /var/data/file074                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 12 ./mystat /var/data/file076                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 13 ./mystat /var/data/file214                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 14 ./mystat /var/data/file216                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 15 ./mystat /var/data/file234                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 16 ./mystat /var/data/file236                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 17 ./mystat /var/data/file274                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 18 ./mystat /var/data/file276                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 19 ./mystat /var/data/file414                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 20 ./mystat /var/data/file416                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 21 ./mystat /var/data/file434                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 22 ./mystat /var/data/file436                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 23 ./mystat /var/data/file474                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 24 ./mystat /var/data/file476                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 25 ./mystat /var/data/file514                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 26 ./mystat /var/data/file516                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 27 ./mystat /var/data/file534                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 28 ./mystat /var/data/file536                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 29 ./mystat /var/data/file574                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 30 ./mystat /var/data/file576                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 31 ./mystat /var/data/file614                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 32 ./mystat /var/data/file616                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 33 ./mystat /var/data/file634                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 34 ./mystat /var/data/file636                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 35 ./mystat /var/data/file674                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 36 ./mystat /var/data/file676                                |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 37 ./mystat /var/data/socket                                 |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 38 ./mystat /dev/null                                        |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 7 [ also counts for 4 3 2 1 ]...
+Line_3_did_not_match
+Your file did not match the expected ouput
+ o Incorrect for Step 7, expected
+  File: /dev/null
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 6           Links: 1     Device type: 1,3
+Access: (0666/crw-rw-rw-)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2018-09-26 16:28:33.799951382 -0400
+Modify: 2018-09-26 16:28:33.799951382 -0400
+Change: 2018-09-26 16:28:33.799951382 -0400
+ Birth: -
+...but you gave: 
+  File: /dev/null
+  Size: 0         	Blocks: 0          IO Block: 4096   character special file
+Device: 6h/6d	Inode: 6           Links: 1     Device type: 0,6
+Access: (0666/crw-rw-rw-)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2018-09-26 16:28:33.799951382 -0400
+Modify: 2018-09-26 16:28:33.799951382 -0400
+Change: 2018-09-26 16:28:33.799951382 -0400
+ Birth: -
+ o trying earlier steps...
+**Comparing for Step 4...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 39 ./mystat /dev/loop4                                       |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 7 [ also counts for 4 3 2 1 ]...
+Line_3_did_not_match
+Your file did not match the expected ouput
+ o Incorrect for Step 7, expected
+  File: /dev/loop4
+  Size: 0         	Blocks: 0          IO Block: 4096   block special file
+Device: 6h/6d	Inode: 130         Links: 1     Device type: 7,4
+Access: (0660/brw-rw----)  Uid: (    0/    root)   Gid: (    6/    disk)
+Access: 2018-09-26 16:28:33.795951382 -0400
+Modify: 2018-09-26 16:28:33.795951382 -0400
+Change: 2018-09-26 16:28:33.795951382 -0400
+ Birth: -
+...but you gave: 
+  File: /dev/loop4
+  Size: 0         	Blocks: 0          IO Block: 4096   block special file
+Device: 6h/6d	Inode: 130         Links: 1     Device type: 0,6
+Access: (0660/brw-rw----)  Uid: (    0/    root)   Gid: (    6/    disk)
+Access: 2018-09-26 16:28:33.795951382 -0400
+Modify: 2018-09-26 16:28:33.795951382 -0400
+Change: 2018-09-26 16:28:33.795951382 -0400
+ Birth: -
+ o trying earlier steps...
+**Comparing for Step 4...
+Your file matched the expected output
+ o Correct for Step 4 
+
++-----------------------------------------------------------------------+
+| testcase 40 ./mystat /bin/bash /var/data/file536                      |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 5...
+Your file matched the expected output
+ o Correct for Step 5 
+
++-----------------------------------------------------------------------+
+| testcase 41 ./mystat /var/data/*                                      |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 5...
+Your file matched the expected output
+ o Correct for Step 5 
+
++-----------------------------------------------------------------------+
+| testcase 42 ./mystat /bin/true /bin/false                             |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 5...
+Your file matched the expected output
+ o Correct for Step 5 
+
++-----------------------------------------------------------------------+
+| testcase 43 ./mystat /var/data/socket /var/data/fifo                  |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 5...
+Your file matched the expected output
+ o Correct for Step 5 
+
++-----------------------------------------------------------------------+
+| testcase 44 ./mystat /var/data/afile /var/data/file616 /var/data/dir  |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 5...
+Your file matched the expected output
+ o Correct for Step 5 
+
++-----------------------------------------------------------------------+
+| testcase 45 ./mystat doesntexist.txt                                  |
++-----------------------------------------------------------------------+
+
+  - Valgrind was clean (no errors, no memory leaks)
+**Comparing for Step 4 [ also counts for 3 2 1 ]...
+Your file matched the expected output
+ o Correct for Step 4 
+=====================
+Overall summary:
+=====================
+Step 1: 40 correct / 40 tests = 20
+Step 2: 40 correct / 40 tests = 20
+Step 3: 40 correct / 40 tests = 20
+Step 4: 40 correct / 40 tests = 10
+Step 5:  5 correct /  5 tests = 10
+Step 6:  1 correct /  1 tests = 10
+Step 7:  0 correct /  2 tests =  0
+Valgrind failures: 0  / 45  [grade multiplied by 1.0000]
+----------------------------------------------------------
+Functionality grade: 90 / 100
+  -> This is 85% of your overall grade on this assignment
+----------------------------------------------------------
+Style grade (15% of overall)
+------------------
+ + Abstraction:    5 / 5
+ + Comments:       1.5 / 2
+ + Variable Names: 1.5   / 2
+Note from the grader:
+Good abstraction and comments, made code very easy to read and understand. There were enough comments, but they could have been more descriptive: not just "for step 2" to explain what happens in step 2. Same for the names of functions, please use function names that have descriptive meaning.
+Total points 8.0 / 9 = 88.88 % 
+ -> This is 15% of your overall grade on this assignment
+Total: 0.85 * 90 + 0.15 * 88.88=89.83
+
+Overall Grade: 89.83

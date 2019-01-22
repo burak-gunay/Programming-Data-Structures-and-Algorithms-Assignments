@@ -1,0 +1,93 @@
+Grading at 10/15/2018:19:56:22.318655
+For commit ID e2ffe888c81fdf5a3b8fd89cff5ebb514cc16234
+Good for you: you committed election.h
+election.c exists (good)
+Starting by grading FUNCTIONALITY (90% of grade)
+Attempting to compile election.c
+rm -f *~ printStates printEVotes printRecounts printLargeWin
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printStates.o -o printStates
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printEVotes.o -o printEVotes
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printRecounts.o -o printRecounts
+gcc -ggdb3 -Wall -Werror -std=gnu99 election.c printLargeWin.o -o printLargeWin
+#################################################
+testcase1 of step1:
+testcase1 passed [1/1]
+#################################################
+testcase2 of step1:
+testcase2 passed [1/1]
+#################################################
+testcase3 of step1:
+testcase3 passed [1/1]
+#################################################
+testcase4 of step1:
+testcase4 passed [1/1]
+#################################################
+testcase5 of step1:
+Your file matched the expected output
+testcase5 passed [10/10]
+#################################################
+testcase6 of step1:
+Difficult corner cases
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
+Your file did not match the expected ouput
+testcase6 failed, your output did not match with the answer [0/6]
+#################################################
+testcase1 of step2:
+Your output is correct [8/8]
+#################################################
+testcase2 of step2:
+Your output is correct [8/8]
+#################################################
+testcase3 of step2:
+Your output is correct [8/8]
+#################################################
+testcase4 of step2:
+Difficult corner cases
+Your output is correct [6/6]
+#################################################
+testcase1 of step3:
+Your output is correct [6/6]
+#################################################
+testcase2 of step3:
+Your output is correct [6/6]
+#################################################
+testcase3 of step3:
+Your output is correct [6/6]
+#################################################
+testcase4 of step3:
+Difficult corner cases
+Your output is correct [2/2]
+#################################################
+testcase1 of step4:
+Your output is correct [8/8]
+#################################################
+testcase2 of step4:
+Your output is correct [8/8]
+#################################################
+testcase3 of step4:
+Your output is correct [8/8]
+#################################################
+testcase4 of step4:
+Difficult corner cases
+Your output is correct [6/6]
+Functionality grade: 94 %
+This counts for 90% so you get 0.9 * 94 => 84.6 points
+--------------------------------------
+Style grade (10% of overall)
+Abstraction of finding a colon:  2 / 2
+Abstraction of converting a string to a number: 2 / 2
+Comments: 2 / 2
+Variable naming: 1.75 / 2
+Other (no global variables, no magic numbers, no strange casts etc)  2 / 2
+The comments from the  TA who graded this were:
+Great abstraction and use of library functions! Variable naming has some inconsistencies, but it's not all over. A tip : Commenting should be done so that a person who didn't write the code has an easier time understanding the it(you don't need to comment while calling library functions, that's what the man pages are for :) )
+-------------------------------------------------
+Style total 9.75 / 10 
+
+
+Overall grade is 84.6  + 9.75 = 94.35
+
+Overall Grade: 94.35

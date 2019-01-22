@@ -1,0 +1,8 @@
+  File: README
+  Size: 13094     	Blocks: 32         IO Block: 4096   regular file
+Device: fd00h/64768d	Inode: 112988467   Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1257/   bg127)   Gid: ( 1260/   bg127)
+Access: 2018-10-15 12:02:22.895446269 -0400
+Modify: 2018-10-15 12:02:18.811370221 -0400
+Change: 2018-10-15 12:02:18.811370221 -0400
+ Birth: -

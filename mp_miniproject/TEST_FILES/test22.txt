@@ -1,0 +1,11 @@
+define (f a b c) =(* c (+ a b) )
+define (adS98AD Y ) = ( + Y (f 3 5 10) )
+define (X a) = (sin (/ (* a 3.14159265) 180.0) )
+define (Y b) = (sqrt b)
+test (f 1 2 3) 9
+test (X 30) 0.5
+test (Y 36) 6
+#this whole line gotta be ignored
+test (   adS98AD 5 ) 9
+test (   adS98AD 5 ) 9 #this comment is ought to be ignored
+test (   adS98AD 5 ) 9#this comment is ought to be ignored TOO
