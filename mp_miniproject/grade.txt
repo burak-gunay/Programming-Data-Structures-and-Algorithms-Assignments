@@ -1,3 +1,0 @@
-Grade: 72.7
-Comments:
-Good use of comments! Program cannot handle an empty line as input. Cannot define functions to call other predefined functions without using hardcoded inputs for the predefined functions. Cannot correctly integrate in 2 or 3 dimensions using trapezoid method. Does not valgrind cleanly, even in simple cases (missing many frees, some mismatched frees). 
